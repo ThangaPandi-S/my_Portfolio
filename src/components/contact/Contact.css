@@ -1,0 +1,112 @@
+/* General styles for the contact section */
+.contact {
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: 30px;
+    margin: 200px;
+}
+
+.contact h1 {
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.contact span {
+    text-transform: lowercase;
+    color: var(--span);
+}
+
+.contact__container {
+    padding: 20px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 600px;
+}
+
+.contact__container p {
+    font-size: 25px;
+    font-family: "Alata", sans-serif;
+}
+
+.contact__icon a {
+    margin-right: 20px;
+    padding: 30px 10px 5px 10px;
+}
+
+.contact__icon a svg {
+    font-size: 40px;
+}
+
+.contact__icon a:nth-of-type(1):hover {
+    background: linear-gradient(180deg, #f9ce34, #ee2a7b, #6228d7);
+    border-radius: 100px;
+}
+
+.contact__icon a:nth-of-type(2):hover {
+    background-color: #0077B5;
+    border-radius: 100px;
+}
+
+.contact__icon a:nth-of-type(3):hover {
+    background-color: #c0291b;
+    border-radius: 100px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 950px) {
+    .contact {
+        padding: 20px;
+        margin: 100px 20px;
+
+    }
+
+    .contact__container {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .contact__container p {
+        font-size: 20px;
+    }
+
+    .contact__icon a {
+        margin-right: 10px;
+        padding: 20px 5px 5px 5px;
+    }
+
+    .contact__icon a svg {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+        padding: 20px;
+        margin: 100px 0;
+    }
+
+    .contact__container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contact__container p {
+        font-size: 18px;
+    }
+
+    .contact__icon a {
+        margin-right: 10px;
+        padding: 15px 5px 5px 5px;
+    }
+
+    .contact__icon a svg {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+PE:wght@100..400&display=swap');
+
+.experBox{
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted white;
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+.experBox h1{
+    margin-bottom: 5px;
+}
+.experBox h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.experBox p{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+
+}

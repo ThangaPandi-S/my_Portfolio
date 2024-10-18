@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef9705a6.css",
+    "main.js": "/static/js/main.7cec7e3a.js",
+    "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
+    "static/media/stylish-traveller-with-hat-checking-map.jpg": "/static/media/stylish-traveller-with-hat-checking-map.9a7f273b66dc609d6645.jpg",
+    "static/media/coffeShop.png": "/static/media/coffeShop.864de0f1bd5ca8ba98f9.png",
+    "static/media/Book Selling.png": "/static/media/Book Selling.07c2ff03339249036c42.png",
+    "static/media/ECommerce.png": "/static/media/ECommerce.dddd2c88543a2d0f5b33.png",
+    "static/media/agribay.png": "/static/media/agribay.b425ca4d6cc4e054a4ef.png",
+    "static/media/thanga.png": "/static/media/thanga.86a7c05ce1af8e979bc5.png",
+    "static/media/coolfix.png": "/static/media/coolfix.9fef6ed3f5c74d0e583a.png",
+    "static/media/Musical.png": "/static/media/Musical.606704b7b63032c350f3.png",
+    "static/media/Designer (8).jpeg": "/static/media/Designer (8).e467a14c76cd419c9f1e.jpeg",
+    "static/media/promptly.png": "/static/media/promptly.2b29f409d2533de2292b.png",
+    "static/media/Thanga_Pandi_CV.pdf": "/static/media/Thanga_Pandi_CV.651933011c42fb692bb2.pdf",
+    "index.html": "/index.html",
+    "main.ef9705a6.css.map": "/static/css/main.ef9705a6.css.map",
+    "main.7cec7e3a.js.map": "/static/js/main.7cec7e3a.js.map",
+    "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef9705a6.css",
+    "static/js/main.7cec7e3a.js"
+  ]
+}

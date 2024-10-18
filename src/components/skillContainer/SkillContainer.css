@@ -1,0 +1,119 @@
+/* General styles for sillContainer and children */
+.sillContainer {
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+    padding: 100px 0;
+    flex-wrap: wrap;
+}
+
+.skilContainer__image {
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.skilContainer__image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 20px;
+}
+
+.skillContainer__text {
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.skillContainer__text h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.skillContainer__skillset > h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skillContainer__slider > .MuiLinearProgress-colorPrimary {
+    background-color: rgb(88, 88, 88);
+}
+
+.skillContainer__slider {
+    margin-bottom: 20px;
+}
+
+.skillContainer__slider-1 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(10, 193, 7);
+}
+
+.skillContainer__slider-2 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(149, 18, 29);
+}
+
+.skillContainer__slider-3 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(106, 24, 201);
+}
+
+.skillContainer__slider-4 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(177, 158, 14);
+}
+
+.skillContainer__slider-5 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(255, 127, 255);
+}
+
+.skillContainer__slider-6 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(24, 180, 70);
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 950px) {
+    .sillContainer {
+        margin: 100px 20px;
+        padding: 50px 0;
+    }
+
+    .skilContainer__image {
+        margin: 0;
+        flex-basis: 100%;
+    }
+
+    .skilContainer__image img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .skillContainer__text {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sillContainer {
+        margin: 50px 20px;
+        padding: 30px 0;
+    }
+
+    .skilContainer__image img {
+        max-width: 300px;
+    }
+
+    .skillContainer__text h2 {
+        font-size: 30px;
+    }
+
+    .skillContainer__skillset > h5 {
+        font-size: 16px;
+    }
+}
