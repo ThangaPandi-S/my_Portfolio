@@ -8,7 +8,7 @@ import premier from '../../images/Book Selling.png';
 import jess from '../../images/Musical.png';
 import promptly from '../../images/promptly.png'
 import coolfix from '../../images/coolfix.png';
-import agribay from '../../images/agribay.png'
+import ecom from '../../images/ecom.png'
 
 export const ProjectContainer = () => {
 
@@ -44,10 +44,10 @@ export const ProjectContainer = () => {
             link: "https://promptly-ai-gpt.web.app/"
         },
         {
-            img: agribay,
+            img: ecom,
             title: "agribay",
             desc:"the progress components accept a value in the range 0 - 100. This simplifies things for screen-reader users, where these are the default min / max values. Sometimes, however, you migh ",
-            link: "www.google.com"
+            link: "http://ecommerce-thasthra.s3-website.eu-north-1.amazonaws.com"
         }
     ];
   return (
