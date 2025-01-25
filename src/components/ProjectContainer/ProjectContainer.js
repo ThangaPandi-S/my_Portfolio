@@ -46,7 +46,7 @@ export const ProjectContainer = () => {
         {
             img: ecom,
             title: "agribay",
-            desc:"the progress components accept a value in the range 0 - 100. This simplifies things for screen-reader users, where these are the default min / max values. Sometimes, however, you migh ",
+            desc:"Thasthara is a modern e-commerce platform designed to deliver an exceptional online shopping experience. It combines sleek design with robust functionality to offer customers a seamless and user-friendly interface. Thasthara provides a wide range of products, intuitive navigation, and secure payment options to make shopping convenient and hassle-free. ",
             link: "http://ecommerce-thasthra.s3-website.eu-north-1.amazonaws.com"
         }
     ];
